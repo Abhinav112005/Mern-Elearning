@@ -1,4 +1,4 @@
-📘 MERN E-learning Platform (EDUNEX)
+#📘 MERN E-learning Platform (EDUNEX)
 
 A full-stack web application for digital learning built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This platform supports user authentication, course management, lecture viewing, admin dashboard, Razorpay payment integration, email verification, and more.
 
