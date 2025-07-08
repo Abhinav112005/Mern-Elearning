@@ -1,5 +1,11 @@
 import multer from "multer";
 import { v4 as uuid } from "uuid";
+import fs from 'fs';
+
+const dir = './uploads';
+if (!fs.existsSync(dir)) {
+  fs.mkdirSync(dir);
+} 
 
 const storage = multer.diskStorage({
   destination(req, file, cb) {
